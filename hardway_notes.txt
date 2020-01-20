@@ -1,0 +1,26 @@
+
+
+Ex11 - Escape Sequences
+\\ - backslash - \
+\' - single quote - '
+\" - double quote - "
+\a - ASCII bell - BEL
+\b - ASCII backspace - BS
+\f - ASCII formfeed - FF
+\n - ASCII linefeed - LF
+\N{name} - character named name in Unicode database
+\r - carriage return - CR
+\t - horizontal tab - TAB
+\uxxxx - character with 16-bit hex value xxxx
+\Uxxxxxxxx - character with 32-bit hex value xxxxxxxx
+\v - vertical tab - VT
+\000 - character with octal value 000
+\xhh - character with hex value hh
+### make flashcards!
+
+Ex12 - Parameters, Unpacking, Variables (argv)
+from sys import argv
+script, x, y, z
+
+Run like:
+python3 fileName.py setx sety setz

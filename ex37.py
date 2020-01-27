@@ -68,5 +68,11 @@ dog1.dog_dicter()
 dog2.dog_dicter()
 dog3.dog_dicter()
 
+"""
 for i in dog_dict.keys():
     print(f"{i}, good dog. Here are the details: {dog_dict[i]}")
+print("\n")
+"""
+
+program = [print(i) for i in dog_dict.keys()]
+exec(program)

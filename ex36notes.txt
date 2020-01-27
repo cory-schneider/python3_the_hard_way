@@ -1,0 +1,41 @@
+Exercise 36 - notes
+
+Rules for if-statements:
+1. Every if must have an else.
+    I'm not sure about this one. Have read contrary opinions.
+2. If else should never run because it doesn't make sense, there must be a
+"die" function built in that prints an error message and dies. This will find
+many errors
+3. Never nest if-statements more than two deep and aim for just one deep
+4. Treat if-statements like paragraphs, where each if-elif-else grouping is
+like a set of sentences. Put blank lines before and after.
+5. Boolean tests should be simple. If they are complex, move their calculations
+ to variables earlier in your function and use a good name for the var
+
+Rules for loops:
+1. Use a while-loop only to loop forever, and that means probably never.
+  This applies to Python, other languages are different
+2. Use a for-loop for all other kinds of grouping, especially if there is a
+fixed or limited number of things to loop over
+
+Tips for Debugging:
+1. Do not use a "debugger." Info isn't specific enough, and you'll find a lot
+of unnecessary information
+2. Use print liberally to view the values of variables at points in the program
+ to see where they go wrong.
+3. Make sure parts of your programs work as you work on them. Code, test, fix,
+repeat
+
+Some software creation notes:
+1. Write tasks you need to complete on index cards. To-do list.
+2. Pick the easiest thing from the list.
+3. Write out English comments in source file as a guide for how you'd
+accomplish this task in code.
+4. Write some of the code under the comments
+5. Run the script to see if it worked.
+6. Keep working in this cycle.
+  Write code, run it to test it, fix until it works.
+7. Cross task off the list, pick up next easiest task and repeat.
+
+The key is being methodical and consistent. Continue work by removing
+unnecessary tasks and adding new ones as they come up.
